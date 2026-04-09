@@ -43,7 +43,7 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 - **Libraries:** `paho-mqtt` (for HiveMQ Broker connection), `pytest` (for unit testing).
 
 ### Architecture & Relation to Phase 1
-The code is structured to strictly separate the **MQTT Ingestion layer** from the **Storage layer**. The `TelemetryCollector` class handles data validation and buffering, acting as the bridge between the real-time spacecraft digital twin and the offline HPC rule-processing system. 
+The code is structured to strictly separate the **MQTT Ingestion layer** from the **Storage and Processing layers**. The `TelemetryCollector` class handles data validation and buffering, acting as the bridge between the real-time spacecraft digital twin and the offline HPC rule-processing system. 
 
 ---
 
@@ -106,4 +106,3 @@ python3 -m pytest tests/
 
 ## 📄 License
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-```
