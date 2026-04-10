@@ -36,7 +36,7 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 
 ---
 
-## 🛠️ Software Organization & Architecture
+## 🛠️ Software Organization & Architecture (You can change this)
 
 ### Language and Libraries
 - **Language:** Python 3.9+
