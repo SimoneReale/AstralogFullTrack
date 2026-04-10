@@ -1,7 +1,7 @@
 # 🚀 AstraLog-HPC: Full Track Implementation
 ### **Software Engineering for HPC - A.Y. 2025-2026**
 
-This repository contains the **Full Track** solution for the **AstraLog-HPC** project, developed to respond to the "Call for Tenders" issued by the European Space Agency (ESA).
+This repository contains the **Full Track** solution for the **AstraLog-HPC** project, developed to respond to a simulated "Call for Tenders" issued by the European Space Agency (ESA).
 
 ---
 
