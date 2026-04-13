@@ -78,7 +78,9 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
 
 ### 🎯 ESA Compliance & Implementation Details
 
-Following the AstraLog-HPC project description (Section 3), `astralog_collector.py` filters data incoming from the MQTT broker to handle real-world space communication noise:
+Following the AstraLog-HPC project description (Section 3), `astralog_collector.py` acquires data from the MQTT broker. Please refer to the following repository and the corresponding AstraLog Control wed dashboard for more information on this broker:  https://github.com/SimoneReale/astralog-control. 
+
+`astralog_collector.py` filters incoming data to handle real-world space communication noise:
 1. **Malformed JSON:** Drops packets with invalid syntax.
 2. **Schema Errors:** Ensures all mandatory fields (`timestamp`, `sensor_id`, `value`, `priority`) are present.
 3. **Type Errors:** Verifies that sensor `value` is numerical.
