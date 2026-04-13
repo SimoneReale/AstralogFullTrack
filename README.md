@@ -42,6 +42,7 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 **To be completed** 
 
 ### (For groups of three and four students) Distribution and parallelization approach
+**To be completed** 
 
 ---
 
@@ -55,6 +56,7 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 ---
 ## 📄 License
 **Change this if you prefer to adopt a different license** 
+
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
 ---
@@ -74,8 +76,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
     └── __init__.py
 ```
 
----
-
 ### 🎯 ESA Compliance & Implementation Details
 
 Following the AstraLog-HPC project description (Section 3), `astralog_collector.py` filters data incoming from the MQTT broker to handle real-world space communication noise:
@@ -86,8 +86,6 @@ Following the AstraLog-HPC project description (Section 3), `astralog_collector.
 The system supports two **Batch Accumulation Strategies**:
 - **Count-based:** Flushes to a timestamped `.txt` file every *N* valid messages.
 - **Time-based:** Flushes to a timestamped `.txt` file every *N* milliseconds.
-
----
 
 ### 💻 Local Setup & Usage
 
@@ -109,8 +107,6 @@ python3 -m src.astralog_collector --mode count --limit 100
 ```bash
 python3 -m src.astralog_collector --mode time --limit 5000
 ```
-
----
 
 ### 🧪 Testing & Rationale
 
