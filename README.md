@@ -3,9 +3,13 @@
 
 This repository contains the **Full Track** solution for the **AstraLog-HPC** project, developed to respond to a simulated "Call for Tenders" issued by the European Space Agency (ESA).
 
+**Selected track**: Full
+
 ---
 
 ## 👥 Team Members & Effort
+
+**To be changed**
 
 | Name Surname | Person Code | Role / Main Focus | Effort (Hours) |
 | :--- | :--- | :--- | :--- |
@@ -32,8 +36,29 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 - **Libraries:** `paho-mqtt` (for HiveMQ Broker connection), ... **to be completed/changed as needed**.
 
 ### Architecture & Relation to Phase 1
+**To be completed** 
+
+### Simplifications and variations (if any)
+**To be completed** 
+
+### (For groups of three and four students) Distribution and parallelization approach
 
 ---
+
+## 🧪 Testing & Rationale
+**To be completed** 
+
+---
+## 🚀 Pipeline & DevOps Workflow
+**To be completed** 
+
+---
+## 📄 License
+**Change this if you prefer to adopt a different license** 
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+---
+
 ## 🛠️ Instructors' notes on the current content of this template
 
 ### Current repository structure
@@ -47,16 +72,13 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 └── tests/
     ├── test_collector.py      # Automated test suite
     └── __init__.py
-├── Singularity.def            # Container definition (to be added)
-├── job.sh                     # SLURM script for Galileo 100 (to be added)
-└── docs/                      # Requirement analysis & Design documents
 ```
 
 ---
 
 ### 🎯 ESA Compliance & Implementation Details
 
-Following the AstraLog-HPC project description (Section 3), ```text astralog_collector.py``` filters data incoming from the MQTT broker to handle real-world space communication noise:
+Following the AstraLog-HPC project description (Section 3), `astralog_collector.py` filters data incoming from the MQTT broker to handle real-world space communication noise:
 1. **Malformed JSON:** Drops packets with invalid syntax.
 2. **Schema Errors:** Ensures all mandatory fields (`timestamp`, `sensor_id`, `value`, `priority`) are present.
 3. **Type Errors:** Verifies that sensor `value` is numerical.
@@ -102,14 +124,5 @@ python3 -m pytest tests/
 
 ---
 
-## 🚀 Pipeline & DevOps Workflow
-
-- **CI/CD Pipeline:** Configured in `.github/workflows/main.yml` to automatically run `pytest` on every push.
-- **Containerization:** A `Singularity.def` file builds an isolated Python environment to ensure reproducibility on the cluster.
-- **HPC Execution:** `job.sh` is configured to run the containerized application on the **CINECA Galileo 100** cluster using the `g100_all_serial` partition.
-
----
 
 
-## 📄 License
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
