@@ -44,6 +44,9 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 ### (For groups of three and four students) Distribution and parallelization approach
 **To be completed** 
 
+### Usage of AI (if any)
+**To be completed** 
+
 ---
 
 ## 🧪 Testing & Rationale
@@ -73,7 +76,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
 ├── requirements.txt           # Python dependencies (paho-mqtt, pytest)
 ├── src/
 │   ├── astralog_collector.py  # Core ingestion & ESA validation logic
-│   ├── collector_output/      # Directory for batched telemetry files
 │   └── __init__.py
 └── tests/
     ├── test_collector.py      # Automated test suite
