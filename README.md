@@ -7,6 +7,13 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 
 ---
 
+## 🌌 AstraLog Control
+Here you can access the official documentation hub and web interface for the **AstraLog-HPC** project. 
+
+**[Click here to access AstraLog Control](https://simonereale.github.io/astralog-control/)**
+
+---
+
 ## 👥 Team Members & Effort
 
 **To be changed**
