@@ -1,4 +1,4 @@
-# 🚀 AstraLog-HPC: Full Track Implementation
+# AstraLog-HPC: Full Track Implementation
 ### **Software Engineering for HPC - A.Y. 2025-2026**
 
 This repository contains the **Full Track** solution for the **AstraLog-HPC** project, developed to respond to a simulated "Call for Tenders" issued by the European Space Agency (ESA).
@@ -7,14 +7,14 @@ This repository contains the **Full Track** solution for the **AstraLog-HPC** pr
 
 ---
 
-## 🌌 AstraLog Control
+## AstraLog Control
 Here you can access the official documentation hub and web interface for the **AstraLog-HPC** project. 
 
 **[Click here to access AstraLog Control](https://simonereale.github.io/astralog-control/)**
 
 ---
 
-## 👥 Team Members & Effort
+## Team Members & Effort
 
 **To be changed**
 
@@ -28,13 +28,13 @@ Here you can access the official documentation hub and web interface for the **A
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 **To be completed**
 
 ---
 
-## 🛠️ Software Organization & Architecture 
+## Software Organization & Architecture 
 
 **To be completed** 
 
@@ -56,22 +56,22 @@ Here you can access the official documentation hub and web interface for the **A
 
 ---
 
-## 🧪 Testing & Rationale
+## Testing & Rationale
 **To be completed** 
 
 ---
-## 🚀 Pipeline & DevOps Workflow
+## Pipeline & DevOps Workflow
 **To be completed** 
 
 ---
-## 📄 License
+## License
 **Change this if you prefer to adopt a different license** 
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
 ---
 
-## 🛠️ Instructors' notes on the current content of this template
+## Instructors' notes on the current content of this template
 
 ### Current repository structure
 ```text
@@ -89,7 +89,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
     └── __init__.py
 ```
 
-### 🎯 ESA Compliance & Implementation Details
+### ESA Compliance & Implementation Details
 
 The following website acts as documentation hub for the project and contains AstraLog Control, a wed dashboard that allows you to visualize the messages incoming from the spacecrafts' digital twins through the MQTT broker: https://github.com/SimoneReale/astralog-control. Please analyze its content carefully. 
 
@@ -107,7 +107,7 @@ The system supports two **Batch Accumulation Strategies**:
 
 
 
-### 💻 Local Setup & Usage
+### Local Setup & Usage
 
 #### 1. Installation
 Install the required dependencies:
@@ -128,7 +128,7 @@ python3 -m src.astralog_collector --mode count --limit 100
 python3 -m src.astralog_collector --mode time --limit 5000
 ```
 
-### 🧪 Testing & Rationale
+### Testing & Rationale
 
 We implemented our test suite using `pytest`. The tests are located in `tests/test_collector.py`.
 - **Rationale behind test cases:** The tests were designed to cover the core business logic without requiring an active MQTT connection.
